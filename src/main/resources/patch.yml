@@ -1,0 +1,8 @@
+# (1 = Add) (DEL = Remove)
+
+#1:
+#    limit:
+#        DELenable-limit: false
+#        DELmax: 1000
+#        painting: true
+#        projectile: true

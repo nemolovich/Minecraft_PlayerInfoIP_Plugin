@@ -1,0 +1,16 @@
+name: PlayerIPInfo
+author: Nemolovich
+description: To get the players IP
+main: fr.nemolovich.apps.playeripinfo.PlayerIPInfoPlugin
+version: 0.1
+commands:
+  players:
+    description: Display the online players with IP
+    usage: /players
+    default: op
+    permission: op
+    permission-message: You don't have permission to use /players
+permissions:
+    ipinfo.players:
+        description: Permission to see players IP
+        default: op
